@@ -1,0 +1,7 @@
+name = "my-worker"
+type = "javascript"
+account_id = "36dc09f4603124d2b4269cf2e0693585"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-11-11"
