@@ -12,5 +12,15 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.18.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theboyg/social-media-with-React-Cloudfare.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Theboyg/social-media-with-React-Cloudfare/issues"
+  },
+  "homepage": "https://github.com/Theboyg/social-media-with-React-Cloudfare#readme"
 }
