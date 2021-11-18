@@ -4,7 +4,6 @@ import { PermMedia, Label, Room, EmojiEmotions} from "@material-ui/icons";
 export default function Share() {
     return (
         <div className="share">
-            
             <div className="shareWrapper">
                 <div className="shareTop">
                 <img src="assets/assets/Person/4.jpg" alt="" className="shareProfilePicture" />
@@ -30,11 +29,9 @@ export default function Share() {
                            <span className = "shareOptionText"> Emotions </span>
                         </div>
                         <button className = "shareButton">Share </button>
-                    </div>
-                     
+                    </div> 
                 </div>
-            </div>
-             
+            </div> 
         </div>
     )
 }

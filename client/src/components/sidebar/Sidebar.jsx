@@ -9,7 +9,6 @@ export default function Sidebar() {
             <div className="sidebarWrapper">
 
                 <ul className="sidebarList">
-
                     <li className="sidebarListItem">
                         <RssFeed className ="sidebarIcon"/>
                         <span className="sidebarListItem">
@@ -109,10 +108,7 @@ export default function Sidebar() {
                         <span className="sidebarFriendName"> Gaoussou Diallo </span>
                     </li>
                 </ul>
-
             </div>
-
-           
         </div>
     )
 }
