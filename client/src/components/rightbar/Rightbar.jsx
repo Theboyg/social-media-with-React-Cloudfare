@@ -1,4 +1,6 @@
-import  "./rightbar.css"
+import "./rightbar.css"
+import { Users } from "../../dummyData";
+import Online from "../../components/online/Online";
 
 export default function  Rightbar() {
     return (
@@ -20,56 +22,14 @@ export default function  Rightbar() {
 
                 <ul className="rightbarFriendList">
 
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
+                    {Users.map(u => (
 
-                            <img src="assets/assets/person/6.jpg" alt="" className="rightbarProfileImg" />
+                        <Online key={ u.id} user={u} />
 
-                            <span className="rightbarOnline"> </span>
-                        </div>
-                         <span className="rightbarUsername"> Ashley Carter </span>
-                    </li>
+                    ))}
 
-                     <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            
-                            <img src="assets/assets/person/6.jpg" alt="" className="rightbarProfileImg" />
+                    
 
-                            <span className="rightbarOnline"> </span>
-                        </div>
-                         <span className="rightbarUsername"> Ashley Carter </span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            
-                            <img src="assets/assets/person/6.jpg" alt="" className="rightbarProfileImg" />
-
-                            <span className="rightbarOnline"> </span>
-                        </div>
-                         <span className="rightbarUsername"> John Haminghton </span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            
-                            <img src="assets/assets/person/6.jpg" alt="" className="rightbarProfileImg" />
-
-                            <span className="rightbarOnline"> </span>
-                        </div>
-                         <span className="rightbarUsername"> Gaoussou Diallo </span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            
-                            <img src="assets/assets/person/6.jpg" alt="" className="rightbarProfileImg" />
-
-                            <span className="rightbarOnline"> </span>
-                        </div>
-                         <span className="rightbarUsername"> Djenebou Diakite </span>
-                    </li>
- 
                 </ul>
             </div>
         </div>
