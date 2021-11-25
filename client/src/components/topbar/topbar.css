@@ -1,7 +1,7 @@
 .topbarContainer{
-    height: 50px;
+    height: 60px;
     width: 100%;
-    background-color: #1877f2;
+    background-color: #323a46;
     display: flex;
     align-items: center; 
     position: sticky;
@@ -79,12 +79,13 @@
     justify-content: center;
     align-items: center;
     font-style: 12px;
-    top: 5px;
+    top: 10px;
+    
 }
 .topbarImage {
 
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
